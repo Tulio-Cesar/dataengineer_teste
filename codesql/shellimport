@@ -1,0 +1,6 @@
+\COPY production_product FROM 'C:\dataengineer_test\dataset\Production.Product.csv' DELIMITER ';' CSV HEADER;
+\COPY sales_SpecialOfferProduct FROM 'C:\dataengineer_test\dataset\Sales.SpecialOfferProduct.csv' DELIMITER ';' CSV HEADER;
+\COPY sales_salesorderdetail FROM 'C:\dataengineer_test\dataset\Sales.SalesOrderDetail.csv' DELIMITER ';' CSV HEADER;
+\COPY person_person FROM 'C:\dataengineer_test\dataset\Person.Person.csv' DELIMITER ';' CSV HEADER;
+\COPY sales_Customer FROM 'C:\dataengineer_test\dataset\Sales.Customer.csv' DELIMITER ';' CSV HEADER;
+\COPY sales_SalesOrderHeader FROM 'C:\dataengineer_test\dataset\Sales.SalesOrderHeader.csv' DELIMITER ';' CSV HEADER;
